@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "Genomics Data Carpentry: CSHL Frontiers and Techniques in Plant Science 2018"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "1 Bungtown Rd. Cold Spring Harbor, NY"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+venue: "Genomics Data Carpentry: Plant Biology 2018 - Université du Québec à Montréal"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "225 Avenue du Président-Kennedy"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "ca"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "40.859238, -73.469841"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "July 2"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latlng: "45.5089945, -73.5685039"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "July 19"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:30 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-07-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-07-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2018-07-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-07-19        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Jason Williams"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["williams@cshl.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: http://pad.software-carpentry.org/2018-07-02-cshl
+collaborative_notes: http://pad.software-carpentry.org/2018-07-19-plantbio
              # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -180,7 +180,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-This is a <b>one-day workshop</b>. We will cover a potpourri of content based on the
+<b>This content will be presented as part of a one-day workshop</b>. We will cover a potpourri of content based on the
 topics below, and according to student backgrounds and interest. We will mostly
 focus on good data management practices and practical introduction to R for
 beginners.
@@ -211,7 +211,7 @@ beginners.
 
 
 {% comment %}
-  SETUP
+  SETUP (optional)
 
   Delete irrelevant sections from the setup instructions.  Each
   section is inside a 'div' without any classes to make the beginning
@@ -222,7 +222,7 @@ beginners.
   'tools/check' as well.
 {% endcomment %}
 <h2 id="setup">Setup</h2>
-<p>
+<p><b> We will be teaching from the cloud so this information is FYI.</b>
   To participate in a Data Carpentry workshop,
   you will need working copies of the software described below.
   Please make sure to install everything and try opening it to make sure it works
